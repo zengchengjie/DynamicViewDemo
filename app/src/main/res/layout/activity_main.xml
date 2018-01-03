@@ -22,4 +22,8 @@
     <com.example.a10062376.dynamicviewdemo.DrawCirclePath
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <com.example.a10062376.dynamicviewdemo.DrawLinePath
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>

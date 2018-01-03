@@ -9,6 +9,7 @@ import android.view.View;
 
 /**
  * Created by 10062376 on 2018/1/2.
+ * 画一条直线
  */
 
 public class DrawLine extends View {
