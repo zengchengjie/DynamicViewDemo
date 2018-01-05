@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.a10062376.dynamicviewdemo.MainActivity">
 
-    <!--引入自定义View-->
+    <!--&lt;!&ndash;引入自定义View&ndash;&gt;-->
     <com.example.a10062376.dynamicviewdemo.DrawCircle
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -26,4 +26,11 @@
     <com.example.a10062376.dynamicviewdemo.DrawLinePath
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+    <com.example.a10062376.dynamicviewdemo.DrawText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <!--<com.example.a10062376.dynamicviewdemo.DrawBitmap-->
+        <!--android:layout_width="600px"-->
+        <!--android:layout_height="600px" />-->
 </android.support.constraint.ConstraintLayout>

@@ -35,6 +35,7 @@ public class DrawLinePath extends View {
         paint.setColor(Color.BLUE);
         paint.setStrokeWidth(20);
         paint.setStyle(Paint.Style.STROKE);
+        path.moveTo(300,400);//设置起点
         path.lineTo(360,360);//起始点为绝对坐标
         path.rLineTo(60,560);//起始点为相对坐标（最后一次绘制的点）
         canvas.drawPath(path,paint);
