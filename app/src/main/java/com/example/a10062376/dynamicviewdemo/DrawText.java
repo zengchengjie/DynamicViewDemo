@@ -44,6 +44,11 @@ public class DrawText extends View {
         paint.setShadowLayer(10,0,0, Color.GREEN);
         paint.setStrokeWidth(20);
         paint.setTextSize(150);
+        paint.setTypeface(Typeface.createFromAsset(getContext().getAssets(), "Satisfy-Regular.ttf"));
+        canvas.drawText("Satisfy-Regular",50,500,paint);//x 和 y是左下角的坐标 y是文字的基线
+        paint.setShadowLayer(10,0,0, Color.GREEN);
+        paint.setStrokeWidth(20);
+        paint.setTextSize(150);
         paint.setTypeface(Typeface.DEFAULT);
         canvas.drawText("DEFAULT",50,800,paint);//x 和 y是左下角的坐标 y是文字的基线
         paint.setShadowLayer(10,0,0, Color.GREEN);
