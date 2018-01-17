@@ -3,4 +3,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawText">文字</string>
+    <string name="drawShape">形状</string>
+    <string name="drawBitmap">图形</string>
 </resources>
